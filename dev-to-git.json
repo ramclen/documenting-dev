@@ -2,5 +2,9 @@
   {
     "id": 254512,
     "relativePathToArticle": "./blog-posts/hello-world/hello-world.md"
+  },
+  {
+    "id": 258043,
+    "relativePathToArticle": "./blog-posts/understanding-redux/understanding-redux.md"
   }
 ]
