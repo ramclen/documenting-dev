@@ -1,8 +1,8 @@
 ---
 published: false
-title: "Hello World"
-cover_image: "https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/hello-world/assets/dev-to.png"
-description: "Description of the article"
+title: 'Hello World'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/hello-world/assets/dev-to.png'
+description: 'Description of the article'
 tags: tag1, tag2, tag3
 series:
 canonical_url:
