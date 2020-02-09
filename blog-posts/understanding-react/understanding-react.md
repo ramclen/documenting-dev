@@ -8,10 +8,13 @@ series:
 canonical_url:
 ---
 
-## Here we go again, what is react? 
+## Here we go again, what is react?
+
+## What are components in react?
+
+## State and Lifecycle?
 
 ## You always complicate things a lot, why I need it?
-
 
 # Found a typo?
 
