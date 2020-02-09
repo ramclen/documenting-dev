@@ -2,7 +2,8 @@
   {
     "id": 254512,
     "relativePathToArticle": "./blog-posts/hello-world/hello-world.md"
-  },{
+  },
+  {
     "id": 258452,
     "relativePathToArticle": "./blog-posts/middleware-on-redux/middleware-on-redux.md"
   }
