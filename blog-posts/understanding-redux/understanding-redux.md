@@ -9,29 +9,31 @@ canonical_url:
 ---
 
 ## What is redux?
+
 https://redux.js.org/introduction/getting-started
 https://en.wikipedia.org/wiki/Redux_(JavaScript_library)
 
-
 ## Pu... Pure Functions?
+
 https://www.sitepoint.com/functional-programming-pure-functions/
 
-
 ## Sure... Why we need that?
+
 https://redux.js.org/introduction/motivation
 
-## How we use it? 
+## How we use it?
 
 Explain how we integrated everything between reducers, actions y state
 
 ## Wait wait... actions? reducers?
+
 https://redux.js.org/basics/actions
 
 https://redux.js.org/basics/reducers
 
 ## I feel its too much, Do we really need it?
-https://redux.js.org/faq/general#when-should-i-use-redux
 
+https://redux.js.org/faq/general#when-should-i-use-redux
 
 Send to redux documentation
 
