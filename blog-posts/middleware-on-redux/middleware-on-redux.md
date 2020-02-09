@@ -1,8 +1,8 @@
 ---
 published: false
-title: "Middleware on redux"
-cover_image: "https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/middleware-on-redux/assets/redux.png"
-description: "Answering questions about middleware on redux"
+title: 'Middleware on redux'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/middleware-on-redux/assets/redux.png'
+description: 'Answering questions about middleware on redux'
 tags: redux, middleware, typescript, javascript
 series:
 canonical_url:
@@ -32,15 +32,15 @@ Redux try control access to state and reduce any problems. For that propose they
 
 1. It made easy the process to create new kind of actions. The big thing here is we are going to probably send the dispatch to our new action. That have two disadvantages:
 
-    1. Made the method signature complex and a bit difficult to read.
-    2. Now we have two different ways to call actions.
+   1. Made the method signature complex and a bit difficult to read.
+   2. Now we have two different ways to call actions.
 
 2. We encapsulate this complexity from our UI Components. In that way every action is executed in the same way. If in the future we change that actions and it does not need any middleware Components does not need to know or change anything.
 3. Middleware are composable in a chain.
 
 Basically, This is a SOLID solution.
 
-If you want to know more, Stackoverflow [has a great thread](https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux) talking about this doubts: 
+If you want to know more, Stackoverflow [has a great thread](https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux) talking about this doubts:
 
 ## Cool but, Where is this exactly in Redux?
 
@@ -56,29 +56,26 @@ After that, it will execute your "normal" actions in the order that they have be
 
 I think [this post](https://medium.com/flutterpub/flutter-redux-thunk-27c2f2b80a3b) explain better.
 
+## How I create my own middleware?
 
-## How I create my own middleware? 
-
-As we say and see on what its a middleware and where it is, it is a piece of code between actions and reducers. 
+As we say and see on what its a middleware and where it is, it is a piece of code between actions and reducers.
 
 Here a small example:
 
 ```ts
 const awesomeMiddleware = store => next => action => {
-  if(action.type === 'MY_ACTION') {
+  if (action.type === 'MY_ACTION') {
     console.log(`My awesome middleware is working!`);
-    store.dispatch(action.payload.otherAction)
+    store.dispatch(action.payload.otherAction);
   }
   next(action);
-}
+};
 
 const store = createStore(counter, applyMiddleware(awesomeMiddleware));
 ```
 
-The code is not really good, but it works for what we are trying to show. The power of middlewares. Probably the only thing that you need a little explanation is about Next [(If you need more)](https://medium.com/netscape/creating-custom-middleware-in-react-redux-961570459ecb) . Next is a function that the middleware call when it finish with the assigned  task. This sends the action to our reducer or another middleware.
-
-
-
+The code is not really good, but it works for what we are trying to show. The power of middlewares. Probably the only thing that you need a little explanation is about Next [(If you need more)](https://medium.com/netscape/creating-custom-middleware-in-react-redux-961570459ecb) . Next is a function that the middleware call when it finish with the assigned task. This sends the action to our reducer or another middleware.
 
 ---
+
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to <REPO URL> and open a new pull request with your changes.
