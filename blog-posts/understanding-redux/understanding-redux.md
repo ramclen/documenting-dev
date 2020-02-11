@@ -12,17 +12,17 @@ First, this post is not to learn redux, it is to clarify few key concepts. So it
 
 ## What is redux?
 
-I will try to keep simple. Redux is a small library to store the central state make and make it predictable. For that purpose it use functional programming paradigm concepts.
+I will try to keep simple. Redux is a small library to store the central state and make it predictable. For that purpose it use functional programming paradigm concepts.
 
-It keep control of how you manipulate the state giving you three basics concepts for it, `Actions`, `Reducers` and `Store`.
+It keeps control of how you manipulate the state giving you three basics concepts for it, `Actions`, `Reducers` and `Store`.
 
-Redux just let you follow an unidirectional data flow state modifications, and it start by `Actions`. `Actions` send the data to the correct `Reducer` and `Reducers` modify the state.
+Redux just let you follow a unidirectional data flow state modifications, and it starts by `Actions`. `Actions` send the data to the correct `Reducer` and `Reducers` modify the state.
 
 ## Wait wait... actions? reducers? state?
 
 Ok, I will try to give you few keys to understand this concepts:
 
-- [Actions](https://redux.js.org/basics/actions) are basically the definition of the change that you are going to made in the state. They are the responsible to take and pass the information to the proper reducer. For that actions return a plain javascript object. The only value needed by redux is `Type` the rest of them are up to you. Type is used by Redux to identify the correct reducer.
+- [Actions](https://redux.js.org/basics/actions) are basically the definition of the change that you are going to make in the state. They are the responsible to take and pass the information to the proper reducer. For that actions, return a plain javascript object. The only value needed by redux is `Type`, the rest of them are up to you. Type is used by Redux to identify the correct reducer.
 
 ```ts
 // Example of a plain object returned by an Action
@@ -44,7 +44,7 @@ It is a good practice define our action types because they are going to be used 
 
 ---
 
-- [Reducers](https://redux.js.org/basics/reducers), here is where we said to redux how the state is going to be changed. Reducers receive the information obtained by actions and return the new state. Redux give us one restrictions here and it is that Reducers have to be `Pure Functions`.
+- [Reducers](https://redux.js.org/basics/reducers), here is where we said to redux how the state is going to be changed. Reducers receive the information obtained by actions and return the new state. Redux give us one restriction here and it is that Reducers have to be `Pure Functions`.
 
 ```ts
 function setUser(state, action) {
@@ -57,17 +57,19 @@ function setUser(state, action) {
 }
 ```
 
-- [Store](https://redux.js.org/basics/store) is the object that keep control everything around the state. So if you need, update the sate, listen changes, etc. the state is your guy. It is a singleton, that means that we only have one in our application.
+- [Store](https://redux.js.org/basics/store) is the object that keep control over the state. So if you need, update the sate, listen changes, etc. the state is your guy. It is a singleton, that means that we only have one in our application.
 
 ## Pu... Pure Functions?
 
-Pure functions is a concept that comes from functional programming. This concept mean that a function should do not produce any external side effect (Change or read global values, make api calls, write or read files, etc).
+Pure functions is a term that comes from functional programming. This term means that a function should do not produce any external side effect (Change or read global values, make API calls, write or read files, etc).
 
-That means that pure functions are [deterministic](https://en.wikipedia.org/wiki/Deterministic_system). In other words, that you can know the output from specific inputs. This is key when you want to keep something like your application state under control.
+That means that pure functions are [deterministic](https://en.wikipedia.org/wiki/Deterministic_system). In other words, you can know the output from specific inputs. This is key when you want to keep something like your application state under control.
 
 ## Ehm, What is functional programming?
 
-This need more time to explain it but I will give you few things to understand more lees what we are talking about. Functional programming is a paradigm that avoid changing state and mutable data. It create solutions treating the software as compound of mathematical functions (or pure functions).
+This may take more time to explain it, but I will give you few things to understand a bit what we are talking about.
+
+Functional programming is a paradigm that avoid changing state and mutable data. It create solutions treating the software as compound of mathematical functions (or pure functions).
 
 So if you compare with Object Oriented is probably really different. If you would like to know more about Functional Programming [here](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0) is a place to start.
 
@@ -93,4 +95,4 @@ I do not know if they are better, but I have few options that you could check. P
 
 # Found a typo?
 
-If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to <REPO URL> and open a new pull request with your changes.
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to [my github repository](https://github.com/ramclen/documenting-dev) and open a new pull request with your changes.
