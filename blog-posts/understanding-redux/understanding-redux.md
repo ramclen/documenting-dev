@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Understanding Redux'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/understanding-redux/assets/redux-architecture.png'
 description: 'Answering questions about redux'

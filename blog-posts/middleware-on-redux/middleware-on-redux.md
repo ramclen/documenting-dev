@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Middleware on redux'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/middleware-on-redux/assets/redux.png'
 description: 'Answering questions about middleware on redux'
