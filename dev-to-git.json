@@ -6,5 +6,9 @@
   {
     "id": 258452,
     "relativePathToArticle": "./blog-posts/middleware-on-redux/middleware-on-redux.md"
+  },
+  {
+    "id": 258043,
+    "relativePathToArticle": "./blog-posts/understanding-redux/understanding-redux.md"
   }
 ]
