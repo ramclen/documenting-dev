@@ -3,7 +3,7 @@ published: false
 title: 'Your title'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/understanding-react/assets/react-logo.jpeg'
 description: 'Description of the article'
-tags: tag1, tag2, tag3
+tags: react, javascript, webdev
 series:
 canonical_url:
 ---
