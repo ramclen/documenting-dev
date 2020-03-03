@@ -8,43 +8,27 @@ series:
 canonical_url:
 ---
 
------
-
-# First part 
-
-## Whats is react
-
-React is a powerful library that helps us to create web applications. React focuses only on how the appearance react to changes on data. To do that it split the application on what we call components. 
-
-
-The library was released on 2013 by it have been under development from 2011 by Jordan Walke a software engineer of Facebook.
-
-
-## What is a component
-
-Component is a concept that developers use to isolate a part of the UI and encapsulate similar features to make easy reuse and maintain. Components have to be independent of the rest of the application. 
-
-
-take a picture of a block and go through like thinking in react. Taking small block of the block
-
-think in a Web page as a mltiple boxes
-
-## What is an application?
-
-speack a bit about applications and how works and how we distribute and say that we could send with react native
-
-## What is an application?
----
-
-# Second Part 
-
-
-## 
-
-
 ## Here we go again, what is react?
 
+React is a powerful library that helps us to create web applications. React focuses on how the appearance looks like and react to user interactions. To do that the main concept that create is what we call components. 
+
+The library was released on 2013 but it has been under development from 2011 by Jordan Walke a software engineer of Facebook.
+
 ## What are components in react?
+
+Component is a concept that developers use to isolate a part of the UI and encapsulate similar features to make easy to reuse and maintain. Components must be independent of the rest of the application.
+
+At the end, a component is a piece of HTML and JS code that show and interact with the user. So a button is a component but you can also have a component that is a compilation of components.
+
+So, for example, a button could be a component itself, but you can add this small component with a input and create a new component.
+
+## What is an application?
+
+An application is a software that is created to final users. Yes, I know, it sounds really ambiguous but it is what we have. So your android/iOS applications are that, applications, pieces of software made with a great UI/UX to everyone know how to use it (well... the good ones).
+
+When we use react is to create Web Applications, we applications are great because they run anywhere and it does not need to be store. Web applications have good points but also few bad ones. For example, they have reduced access to the operating system, performance issues, etc.
+
+But good news, React have React Native, it reduce this kind of problems and lets us create great applications for mobiles using the same brilliant library.
 
 ## State and Lifecycle?
 
