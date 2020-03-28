@@ -10,5 +10,9 @@
   {
     "id": 258043,
     "relativePathToArticle": "./blog-posts/understanding-redux/understanding-redux.md"
+  },
+  {
+    "id": 273491,
+    "relativePathToArticle": "./blog-posts/Understanding-JSX/Understanding-JSX.md"
   }
 ]
