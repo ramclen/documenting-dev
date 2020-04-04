@@ -30,9 +30,33 @@ When we use react is to create Web Applications, we applications are great becau
 
 But good news, React have React Native, it reduce this kind of problems and lets us create great applications for mobiles using the same brilliant library.
 
-## State and Lifecycle?
+## State and Lifecycle? What they are?
+
+State is a javascript object that contains the data relative to an object. We use them because we can update the state from a component to rerender it. 
+
+We update the state object using the `setState()` function. We have to initialize state when we create a component. React state is only valid in class based components.
+
+Every React based component has a lifecycle methods. It is like a series of events (or functions) that are going to be called automatically by React at certain points during this lifecycle.
+
+It has three phases:
+- Mounting: Puts elements into the DOM.
+
+  * `constructor()`. This methods is called before anything else. 
+
+  * `render()` method it’s always required. Makes the content visible on the screen. 
+
+  * `componentDidMount()`. It’s called after the components will shows up. Good place to do data loading. 
+
+- Updating: A component is updated when the state or props is changed.
+
+  * `componentDidUpdate()`: Even if you are on the updating phase, render will be call to show the content on screen when change is produced.
+
+- Unmounting: Stop showing components on screen.
+`componentWillUnmount():`
 
 ## You always complicate things a lot, why I need it?
+
+Using React, we can create web application with reusable components, and change data without reloading the page. So we can create large web applications on an easy way.
 
 # Found a typo?
 
