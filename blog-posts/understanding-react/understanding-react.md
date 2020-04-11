@@ -12,7 +12,7 @@ canonical_url:
 
 React is a powerful javascript library that helps us to create web applications. React focuses on how the appearance looks like and react to user interactions. React focus in the creation of what we call **components**.
 
-The library was released on 2013 but it has been under development from 2011 by Jordan Walke a software engineer of Facebook.
+The library was released on 2013 but it has been under development since 2011 by Jordan Walke a software engineer from Facebook.
 
 ## What are components in react?
 
