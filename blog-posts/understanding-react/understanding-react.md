@@ -10,11 +10,11 @@ canonical_url:
 
 ## Here we go again, what is react?
 
-React is a powerful javascript library that helps us to create web applications. React focuses on how the appearance looks like and react to user interactions. React focus in the creation of what we call **components**.
+React is a powerful javascript library that helps us to create web applications. React focuses on how the appearance looks like and react to user interactions. React focusses in the creation of what we call **components**.
 
 The library was released on 2013 but it has been under development since 2011 by Jordan Walke a software engineer from Facebook.
 
-## What are components in react?
+## What are components in React?
 
 A Component is a concept that developers use to isolate a part of the UI and encapsulate similar features to make easy to reuse and maintain. Components must be independent of the rest of the application.
 
@@ -26,7 +26,7 @@ So, for example, a button could be a component itself, but you can add this smal
 
 An application is a software that is created to final users. Yes, I know, it sounds ambiguous but it is what we have. So your android/iOS applications are that, applications, pieces of software made with a great UI/UX to everyone know how to use it (well... the good ones).
 
-When we use react is to create Web Applications, The applications are great because they run anywhere and it does not need to be store. Web applications have good points but also few bad ones. For example, they have reduced access to the operating system, performance issues, etc.
+When we use React is to create Web Applications, applications are great because they run anywhere and it does not need to be store. Web applications have good points but also few bad ones. For example, they have reduced access to the operating system, performance issues, etc.
 
 But good news, React have React Native, it reduces this kind of problems and lets us create great applications for mobiles using the same brilliant library.
 
