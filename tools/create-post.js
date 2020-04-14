@@ -2,7 +2,7 @@
 /**
  * Tool to create new posts on dev.to and setup everything on your local machine.
  * The template comes from maxime1992 on https://github.com/maxime1992/dev.to
- * Example of how to use it 
+ * Example of how to use it
  * ./tools/create-post.js "best title ever"
  */
 
@@ -30,7 +30,7 @@ fsExtra.renameSync(
 console.log('- Creating post on dev.to...');
 axios({
   method: 'post',
-  data: { article: { title: postName, body_markdown:'' } },
+  data: { article: { title: postName, body_markdown: '' } },
   url: 'https://dev.to/api/articles',
   responseType: 'json',
   headers: {
