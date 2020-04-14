@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'What is react?'
+title: 'What is React and why is it useful?'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/understanding-react/assets/react-logo.jpeg'
 description: 'Description of the article'
 tags: react, javascript, webdev
