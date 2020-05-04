@@ -14,5 +14,9 @@
   {
     "id": 258043,
     "relativePathToArticle": "./blog-posts/understanding-redux/understanding-redux.md"
+  },
+  {
+    "id": 326911,
+    "relativePathToArticle": "./blog-posts/Learning-about-git/Learning-about-git.md"
   }
 ]
