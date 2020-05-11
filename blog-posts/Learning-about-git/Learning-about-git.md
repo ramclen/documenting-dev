@@ -10,7 +10,7 @@ canonical_url:
 
 In this post, I will try to give you some concepts to help you to start learning about git. Git is known by almost all programmers or even all of them. It manages all the changes made to your files and projects in an easy way.
 
-A way I love to see git is like a save state on a video game, if I fail in next boss I will restart from my previous state and I will give another try with a different strategy.
+I love to see git is like a save state on a video game, if I fail in next boss I will restart from my previous state and I will give another try with a different strategy.
 
 So let us begin!
 
