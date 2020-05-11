@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Learning about git!'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Learning-about-git/assets/cover-image.jpg'
 description: 'Learning basics about git'
