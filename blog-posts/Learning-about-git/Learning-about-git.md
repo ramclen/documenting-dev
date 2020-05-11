@@ -23,20 +23,20 @@ Git is a Version Control System. It means that git is going to help you to store
 First of all, you need to install Git on your local computer. You can download it from [its website.](https://git-scm.com/)
 When you have already installed Git, you have to get into your Project folder
 
-```
-cd projectFolder
+```sh
+  cd projectFolder
 ```
 
 or you can create an empty directory for your project using
 
-```
-mkdir projectFolder
+```sh
+  mkdir projectFolder
 ```
 
 and then, run the command
 
-```
-git init
+```sh
+  git init
 ```
 
 This command will initialize a Git repository in this directory.
@@ -57,14 +57,14 @@ The staging area is in between, is a holding area, a kind of queue when we are w
 
 Simply, using the next command.
 
-```
-git add myFile.txt
+```sh
+  git add myFile.txt
 ```
 
 You can use this command followed by the name of the file that you want to add to this area or you can use a folder path that allows us to add all the files at the same time. This is
 
-```
-git add .
+```sh
+  git add .
 ```
 
 We haven't committed our changes yet. In this area, you can move the files in and out without modify the git repository and review all the changes you have made before committing.
@@ -73,8 +73,8 @@ We haven't committed our changes yet. In this area, you can move the files in an
 
 Once we have our files in the staging area we can save them in our git repo. We'll have to use another command:
 
-```
-git commit -m "Commit message"
+```sh
+  git commit -m "Commit message"
 ```
 
 When we make a commit, we are going to save the changes in all files that were in the staging area.
@@ -84,8 +84,8 @@ Commit messages are messages that we add to our commits to describe which kind o
 
 Using the next command
 
-```
-git status
+```sh
+  git status
 ```
 
 Shows the status in both the working directory and staging area. It helps us to see in which state are the files you have modified so we can handle them.
@@ -94,15 +94,15 @@ Shows the status in both the working directory and staging area. It helps us to 
 
 Yes! There is a command that outputs the history of changes. We have to use:
 
-```
-git log
+```sh
+  git log
 ```
 
 This returns to us very important information about our commit history, like the ID of the commits, the author, the date and where is the head.
 It maybe looks a little confusing if you have multiples commits, but there are a few options that you can use to have a better vision of this log. My favorite one is:
 
-```
-git log --all --decorate --oneline --graph
+```sh
+  git log --all --decorate --oneline --graph
 ```
 
 This one, in particular, draws a graphical representation in one line and it's very visual. Try it yourself!
