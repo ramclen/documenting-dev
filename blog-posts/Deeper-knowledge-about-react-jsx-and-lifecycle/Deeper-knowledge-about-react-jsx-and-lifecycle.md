@@ -59,7 +59,7 @@ Ok, to keep it simple let me show you the more used methods
 - Component **is Mounted** in the DOM.
   - `componentDidMount()` This is a perfect method to execute code that required more processing (for example running requests) and it is going to be needed only at the beginning of the component lifecycle.
 - Component **is Updated**. It means that the state or props has changed.
-  - `componentDidUpdate(previousProps, previousState)` So this method is to when we are concern about how our component is evolving and we want to react differently depending of how our state or props are changing.
+  - `componentDidUpdate(previousProps, previousState)` So this method is used when we are concern about how our component is evolving and we want to react differently depending of how our state or props are changing.
 - **Unmounting** our component. This happens when our component is removed from the DOM.
   - `componentWillUnmount():` in this method is useful when we want to clear or free some resources.
 
