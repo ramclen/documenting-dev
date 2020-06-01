@@ -30,7 +30,7 @@ Do not think that JSX is transformed to HTML directly, JSX is syntactic sugar fo
 
 There are a lot of reasons why you should use JSX, the first one and more important is because you are using React and you probably do not want to be creating elements like in the link from React documentation shown in the previous section.
 
-But, if this is a point where you are thinking about using react or not let me try to convince you.
+But, if this is a point where you are thinking about using React or not let me try to convince you.
 
 - You will have more typo errors (helping you to find errors on UI)
 - It will give you the opportunity to create complex UI interfaces with a lot less code and less headaches
