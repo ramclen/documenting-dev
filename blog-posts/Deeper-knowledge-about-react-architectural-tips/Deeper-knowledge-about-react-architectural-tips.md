@@ -1,9 +1,9 @@
 ---
 published: false
 title: 'Learning React: Key attribute, Component Isolation and Controlled Components'
-cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Deeper-knowledge-about-react-architectural-tips/assets/cover.pnga'
 description: 'Description of the article'
-tags: tag1, tag2, tag3
+tags: react, web-development, javascript
 series:
 canonical_url:
 ---
