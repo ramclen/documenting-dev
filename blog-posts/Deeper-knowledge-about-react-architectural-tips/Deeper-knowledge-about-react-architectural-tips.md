@@ -1,12 +1,14 @@
 ---
 published: false
-title: 'Your title'
+title: 'Learning React: Key attribute, Component Isolation and Controlled Components'
 cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png'
 description: 'Description of the article'
 tags: tag1, tag2, tag3
 series:
 canonical_url:
 ---
+
+In this post, I would like to share few things that have nothing in common but it improves our comprehension about how we should structure react and why some things behave in some ways.
 
 ## Why we use key on lists?
 
