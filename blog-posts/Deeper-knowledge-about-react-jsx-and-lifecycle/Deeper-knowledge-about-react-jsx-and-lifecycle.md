@@ -8,11 +8,11 @@ series:
 canonical_url:
 ---
 
-I would like to talk about typical things coming with ReactJS that you could miss learning React. If you are in the process, this is going to help you to understand better JSX and Lifecycle. So let's start!
+I would like to talk about typical things coming with ReactJS that you could miss when learning React. If you are in the process, this is going to help you to understand better JSX and Lifecycle. So let's start!
 
 ## What is JSX?
 
-JSX is the language that React offers to embed UI logic and render interfaces. JSX is really similar to HTML but is not the same. It runs inside of Javascript, for that reason I am going to give few tips to boost your learn about JSX and differentiate to html:
+JSX is the language that React offers to embed UI logic and render interfaces. JSX is really similar to HTML but is not the same. It runs inside of Javascript, for that reason I am going to give few tips to boost your knowledge about JSX and differentiate to html:
 
 - Properties and attributes names use camelCase instead of kebab-case found on HTML
   - Example: tab-index => tabIndex
@@ -53,15 +53,15 @@ When our component is passing a specific phase it will call the correct function
 Ok, to keep it simple let me show you the more used methods
 
 - **Building** our component before showed in the application.
-  - `constructor()` Yep, famous constructor method, that method is to focus on state and properties set up. The reason behind is we want to show our component as soon as possible. Also, this is actually the only place where you are going to be able to assign `this.state`. Another thing to have in mind is that you must always call `super()` to send properties to React Component parent class.
+  - `constructor()` Yep, famous constructor method, that method is to focus on state and properties set up. The reason behind this is that we want to show our component as soon as possible. Also, this is actually the only place where you are going to be able to assign `this.state`. Another thing to have in mind is that you must always call `super()` to send properties to React Component parent class.
 - **Showing** or render our component.
-  - `render()` here is where we are going to focus on tell to react how our component is going to looks like, for that porpoise we use JSX.
+  - `render()` here is where we are going to focus on tell to react how our component is going to looks like, for that purpose we use JSX.
 - Component **is Mounted** in the DOM.
-  - `componentDidMount()` This is a perfect method to execute code that required more processing (for example running requests) and it is going to be needed only at the beginning of the component lifecycle.
+  - `componentDidMount()` This is a perfect method to execute code that require more processing (for example running requests) and it is going to be needed only at the beginning of the component lifecycle.
 - Component **is Updated**. It means that the state or props has changed.
   - `componentDidUpdate(previousProps, previousState)` So this method is used when we are concern about how our component is evolving and we want to react differently depending of how our state or props are changing.
 - **Unmounting** our component. This happens when our component is removed from the DOM.
-  - `componentWillUnmount():` in this method is useful when we want to clear or free some resources.
+  - `componentWillUnmount():` this method is useful when we want to clear or free some resources.
 
 Here is a graph to understand better the order and in which phase is every method:
 ![lifecycle graph](https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Learning-about-secrets-of-react/assets/lifecycle.png)
