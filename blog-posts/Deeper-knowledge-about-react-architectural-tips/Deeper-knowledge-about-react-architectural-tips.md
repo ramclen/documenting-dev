@@ -1,7 +1,7 @@
 ---
 published: false
 title: 'Learning React: Key attribute, Component Isolation and Controlled Components'
-cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Deeper-knowledge-about-react-architectural-tips/assets/cover.pnga'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Deeper-knowledge-about-react-architectural-tips/assets/cover.png'
 description: 'Description of the article'
 tags: react, web-development, javascript
 series:
@@ -35,16 +35,15 @@ You probably heard about that before, and if not, I would like to share what it 
 So first, lets talk about what is an uncontrolled component. An **Uncontrolled Component** does not take the responsibility storing the data and decide how it is going to be shown. Tips to recognize or create an uncontrolled component:
 
 1. It does not store the state.
-2. It needs to access to the dom the know the state.
-3. It reacts by changes/events that happens in the DOM.
+2. It needs to access to the dom to know the state.
+3. It reacts only by changes/events that happens in the DOM.
 
 They are useful, for example, for small and easy components that do not need anything more than just the default behaviour.
 
-By the other hand, **Controlled Components** take all the responsibility storing the data in their state and they are `single source of truth`. So tips to recognize or create a controlled component:
+On the other hand, **Controlled Components** take all the responsibility storing the data in their state and they are `single source of truth`. So tips to recognize or create a controlled component:
 
-1. It does not store the state.
-2. It needs to access to the dom the know the state.
-3. It reacts by changes/events that happens in the DOM.
+1. It store the state.
+2. It do not access to the dom to know the state.
 
 You need one of those when you have a complex component that needs to react in a determined manner or it access values frequently. They are the `recommended way to use forms` so keep them in mind.
 
