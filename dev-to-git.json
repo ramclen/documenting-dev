@@ -18,5 +18,9 @@
   {
     "id": 326911,
     "relativePathToArticle": "./blog-posts/Learning-about-git/Learning-about-git.md"
+  },
+  {
+    "id": 345007,
+    "relativePathToArticle": "./blog-posts/Deeper-knowledge-about-react-jsx-and-lifecycle/Deeper-knowledge-about-react-jsx-and-lifecycle.md"
   }
 ]
