@@ -1,7 +1,7 @@
 ---
 published: false
 title: 'Deeper knowledge about ReactJS and Lifecycle'
-cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Learning-about-secrets-of-react/assets/cover.jpg'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Deeper-knowledge-about-react-jsx-and-lifecycle/assets/cover.jpg'
 description: ''
 tags: react, javascript, webdev
 series:
@@ -64,7 +64,7 @@ Ok, to keep it simple let me show you the more used methods
   - `componentWillUnmount():` this method is useful when we want to clear or free some resources.
 
 Here is a graph to understand better the order and in which phase is every method:
-![lifecycle graph](https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Learning-about-secrets-of-react/assets/lifecycle.png)
+![lifecycle graph](https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/Deeper-knowledge-about-react-jsx-and-lifecycle/assets/lifecycle.png)
 
 # Found a typo?
 
