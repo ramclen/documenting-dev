@@ -24,7 +24,7 @@ I know, it's something that you have listened a lot (or not) but it really help 
 
 When we are using libraries to manage our state globally, as for example redux, we sometimes fall into the same typical error. We believe that at some point the data is already loaded into our application because... "How are you going to be there without follow the same steps than me?"
 
-This way of think could not produce the error at that point but later you decide to reuse this component in a different part of you application and then (luckily) you found that your component are not working as before when you follow some steps. That is because you are not following this rule. 
+This way of think could not produce the error at that point but later you decide to reuse this component in a different part of you application and then (luckily) you found that your component are not working as before when you follow some steps. That is because you are not following this rule.
 
 Components have to work just by themselves. It is a really bad practice depend on global states. So every time that you create your component, ask to your application to return/load the data that it needs.
 
