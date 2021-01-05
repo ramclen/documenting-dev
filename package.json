@@ -15,7 +15,7 @@
     "dev-to-git": "dev-to-git"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dev-to-git": "1.1.0",
     "embedme": "1.11.0",
     "fs-extra": "^8.1.0",
