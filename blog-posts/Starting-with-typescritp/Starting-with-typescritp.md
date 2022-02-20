@@ -1,8 +1,8 @@
 ---
 published: false
 title: 'Starting with typescript'
-cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png'
-description: 'Description of the article'
+cover_image: 'https://raw.githubusercontent.com/ramclen/documenting-dev/master/blog-posts/starting-with-typescritp/assets/typescript-logo.png'
+description: 'Basic introduction to Typescript'
 tags: typescript, javascript, dev
 series:
 canonical_url:
