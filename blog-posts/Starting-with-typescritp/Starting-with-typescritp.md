@@ -46,7 +46,7 @@ function sayHi(): void {
 
 _If you just want to have a quick look to Typescript jump to next section._
 
-"Do we really need those types?" Thats is the question could come to your mind when you see next types for first time, but in some scenarios are needed. Probably you will not use this types but if you find yourself in any of this scenario you will know what to do.
+"Do we really need those types?" That the question could come to your mind when you see next types for first time, but in some scenarios are needed. Probably you will not use this types but if you find yourself in any of this scenario you will know what to do.
 
 ### Undefined and Null
 
