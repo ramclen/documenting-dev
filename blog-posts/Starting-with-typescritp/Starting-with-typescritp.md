@@ -33,7 +33,8 @@ const numbers: number[] = [1, 2, 3, 4]; // This is how you declare an array of n
 
 // Enums
 enum GREETING {
-  HELLO = 'HELLO WORLD',
+  HELLO = 'Hello World',
+  GOOD_MORNING = 'Good Morning World',
 }
 
 // Function and void type
@@ -173,25 +174,26 @@ The modifiers define how a property of an object can be access. So lets show wit
 - private: It is only usable inside the object, not accessible from outside of object not even from subclasses.
 
 ```ts
-class Human {
+class AndroidPhone {
+  public phoneNumber: number;
   public name: string;
-  protected gender: string;
-  private genes: string;
+  protected uiCustomization: string;
+  private osCode: string = '<GreatAndroidFirmwareCode>';
 }
 
-class John extends Human {
-  name = 'John';
-  gender = 'male';
-  genes = 'ABXBSA'; // this is not allowed
+class XiaomiPhone extends AndroidPhone {
+  name = 'Mi A1';
+  uiCustomization = 'MIUI (Name of system interface of Xiomi)';
+  osCode = '<DoingGreatReWriteOfCode>'; // this is not allowed
 
-  constructor(genes) {
-    this.genes = genes;
+  constructor(phoneNumber: number) {
+    this.phoneNumber = phoneNumber;
   }
 }
 
-const foo: Human = new John();
-console.log(foo.name);
-console.log(foo.gender); // this is not allowed
+const johnPhone: AndroidPhone = new XiaomiPhone(3082);
+console.log(johnPhone.phoneNumber);
+console.log(johnPhone.uiCustomization); // this is not allowed
 ```
 
 ## Types composing || and &
