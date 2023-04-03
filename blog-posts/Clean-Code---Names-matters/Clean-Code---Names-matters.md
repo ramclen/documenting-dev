@@ -65,8 +65,6 @@ Even when following the best practices of clean code, there are still common pit
 
 By following these guidelines, you can improve the readability, maintainability, and overall quality of your code, making it easier for you and your team to understand and work with.
 
-https://github.com/academind/clean-code-course-code/blob/naming-extra-attachments/slides-naming.pdf
-
 # Found a typo?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to [my github repository](https://github.com/ramclen/documenting-dev) and open a new pull request with your changes.
